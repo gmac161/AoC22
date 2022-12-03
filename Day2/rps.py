@@ -83,7 +83,7 @@ for line in open("input.txt", "r").readlines():
 print(sum(scores))
 
 
-# Part 2 More efficient
+# Part 2 More efficient method
 rps = {"A": 1, "B": 2, "C": 3}
 scores = []
 for line in open("input.txt", "r").readlines():
